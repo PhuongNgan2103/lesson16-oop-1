@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xay-dung-lop-mo-ta-dt</title>
+</head>
+<body>
+<script>
+
+    class Mobile {
+        constructor() {
+            this.status = false;
+            this.battery = 0;
+            this.currentMessage = '';
+            this.messagesReceived = [];
+            this.sentMessage = [];
+        }
+
+        checkStatus(){
+             return this.status;
+        }
+
+        toggleStatus(){
+            this.status = !this.status;
+        }
+
+        chargeStatus(){
+           this.battery = 100;
+        }
+
+        messageCurrentMessage(str){
+            this.currentMessage = str;
+        }
+
+        saveMessagesReceived(str){
+            this.messagesReceived.push(str);
+        }
+
+        saveSentMessage(str){
+            this.sentMessage.push(str);
+        }
+
+        watched(){
+            return this.messagesReceived;
+        }
+
+        watched2(){
+            return this.sentMessage;
+        }
+
+    }
+
+</script>
+</body>
+</html>
