@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2650edb9-a43f-4a94-b95e-834d52f37d22" name="Default Changelist" comment="" />
+    <list default="true" id="2650edb9-a43f-4a94-b95e-834d52f37d22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bt/temperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/xay-dung-lop-mo-ta-dt.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt/xay-dung-lop-mo-ta-dt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/xay-dung-lop-mo-ta-temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt/xay-dung-lop-mo-ta-temperature.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kiUkxAp8C2Y5gRpkQt8zWViKi2" />
   <component name="ProjectViewState">
@@ -44,12 +52,24 @@
       <updated>1606183051695</updated>
       <workItem from="1606183052823" duration="8851000" />
       <workItem from="1606228805570" duration="1905000" />
-      <workItem from="1606264647759" duration="11128000" />
+      <workItem from="1606264647759" duration="12051000" />
+      <workItem from="1606311385302" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606230061330">

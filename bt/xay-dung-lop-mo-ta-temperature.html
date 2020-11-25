@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>xay-dung-lop-mo-ta-temperature</title>
+    <script src="temperature.js"></script>
 </head>
 <body>
+<script>
+    let temp = new Temperature(0);
 
+    function convertToF() {
+        temp.celsius = +document.getElementById('celsius').value;
+        let result = temp.convertCtoF();
+        document.getElementById('result-f').innerText = result;
+    }
+
+    function convertToK() {
+        temp.celsius = +document.getElementById('celsius').value;
+        let result = temp.convertCtoK();
+        document.getElementById('result-k').innerText = result;
+    }
+
+</script>
 </body>
 </html>
