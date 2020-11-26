@@ -26,6 +26,7 @@
 
         chargeStatus(){
            this.battery = 100;
+            alert("Pin đã đầy, chúng tôi vừa thay pin mới :>");
         }
 
         messageCurrentMessage(str){
@@ -40,7 +41,7 @@
             this.sentMessage.push(str);
         }
 
-        watched(){
+        watched1(){
             return this.messagesReceived;
         }
 
@@ -48,9 +49,25 @@
             return this.sentMessage;
         }
 
-
+        reducedBattery(){
+            this.battery = -1;
+        }
 
     }
+
+    let nokia = new Mobile();
+    let iphone = new Mobile();
+
+    nokia.toggleStatus(true);
+    iphone.toggleStatus(true);
+
+    nokia.chargeStatus();
+    iphone.chargeStatus();
+
+    nokia.messageCurrentMessage('đây là tin nhắn');
+    nokia.saveMessagesReceived(nokia.messagesReceived,iphone);
+    iphone.watched1();
+
 
 </script>
 </body>
